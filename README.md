@@ -1,4 +1,4 @@
-# **A bash script to automate port scanning and services enumeration (used in OSCP)**
+# **A bash script to automate port scanning and basic enumeration (used in OSCP)**
 
 ![](./execution_example.png)
 
