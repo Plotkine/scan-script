@@ -15,7 +15,7 @@
 
 ## Initialization
 - make the script executable: **chmod +x scan_script**
-- don't forget to put dirsearch folder in /home/kali/Desktop/
+- (don't forget to put dirsearch folder in /home/kali/Desktop/)
 
 ## Usage
 - put your targets in hosts_list.txt (one per line; **I recommend no more than 4-5 targets** to avoid too much CPU load)
