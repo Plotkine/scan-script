@@ -1,4 +1,6 @@
-# **A bash script I used in OSCP to automate port scanning and basic enumeration**
+# Enumeration script
+
+## **A bash script I used in OSCP to automate port scanning and basic enumeration**
 
 ![](./execution_example.png)
 
