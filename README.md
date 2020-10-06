@@ -1,4 +1,4 @@
-# Enumeration script
+# Scan script
 
 A bash script I used in OSCP to automate port scanning and basic enumeration
 
