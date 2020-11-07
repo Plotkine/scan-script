@@ -10,7 +10,7 @@ a bash script I wrote for OSCP to automate port scanning and basic enumeration
 - enum4linux
 - smbclient
 - smbmap
-- dirsearch (**put dirsearch folder in /home/kali/Desktop/**)
+- dirsearch (**put dirsearch folder in /home/kali/Desktop/**: git clone https://github.com/maurosoria/dirsearch.git /home/kali/Desktop)
 - gobuster (https://github.com/OJ/gobuster)
 - nikto
 - seclists (**sudo apt update && sudo apt install seclists**)
@@ -59,3 +59,8 @@ a bash script I wrote for OSCP to automate port scanning and basic enumeration
   - nikto -ask=no -h https://IP:PORT/
   - nmap -vv --reason -Pn -sV -p PORT IP --script="banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)"
   - curl IP:port/robots.txt
+
+## To be done
+
+- make the script work for any user
+- check if necessary tools are there and download them if needed
