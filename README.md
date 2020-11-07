@@ -10,7 +10,7 @@ a bash script I wrote for OSCP to automate port scanning and basic enumeration
 - enum4linux
 - smbclient
 - smbmap
-- dirsearch (**put dirsearch folder in /home/kali/Desktop/**: git clone https://github.com/maurosoria/dirsearch.git /home/kali/Desktop)
+- dirsearch (**put dirsearch folder in /home/kali/Desktop/**: git clone https://github.com/maurosoria/dirsearch.git /home/kali/Desktop/dirsearch)
 - gobuster (https://github.com/OJ/gobuster)
 - nikto
 - seclists (**sudo apt update && sudo apt install seclists**)
