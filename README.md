@@ -62,5 +62,5 @@ a bash script I wrote for OSCP to automate port scanning and basic enumeration
 
 ## To be done
 
-- make the script work for any user
+- make the script work for any user (currently configured for user "kali" with directories like /home/kali/Desktop/...)
 - check if necessary tools are there and download them if needed
