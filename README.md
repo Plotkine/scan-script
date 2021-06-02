@@ -23,6 +23,7 @@ a bash script I wrote for OSCP to automate port scanning and basic enumeration
 - (don't forget to put dirsearch folder in /home/kali/Desktop/)
 
 ## Usage
+- navigate to the folder where you stored scan_script
 - put your targets in hosts_list.txt (one per line; **I recommend no more than 4-5 targets** to avoid too much CPU load)
 - in one terminal: **sudo ./scan_script hosts_list.txt**
 - in another terminal & from the same directory: **watch -n1 -c -t "cat 0000-----RUNNING-TASKS-----0000"**
