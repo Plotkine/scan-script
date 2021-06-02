@@ -16,6 +16,9 @@ a bash script I wrote for OSCP to automate port scanning and basic enumeration
 - seclists (**sudo apt update && sudo apt install seclists**)
 
 ## Initialization
+- navigate to the folder where you stored scan_script
+- change "Desktop" by the name of your desktop folder in the script: **sed -i 's/Desktop/your_desktop_name_here/g' scan_script**
+- change "kali" by your username in the script: **sed -i 's/kali/your_username_here/g' scan_script**
 - make the script executable: **chmod +x scan_script**
 - (don't forget to put dirsearch folder in /home/kali/Desktop/)
 
@@ -23,7 +26,7 @@ a bash script I wrote for OSCP to automate port scanning and basic enumeration
 - put your targets in hosts_list.txt (one per line; **I recommend no more than 4-5 targets** to avoid too much CPU load)
 - in one terminal: **sudo ./scan_script hosts_list.txt**
 - in another terminal & from the same directory: **watch -n1 -c -t "cat 0000-----RUNNING-TASKS-----0000"**
-- before relaunching the script from the same directory, make sure that there are no folders named with targets IPs
+- before relaunching the script from the same directory, make sure that there are no folders named with the IPs you target
 
 ## Commands run by the script
 - nmap -sS -T4 -p- IP --reason -Pn -n
