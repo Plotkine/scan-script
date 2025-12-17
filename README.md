@@ -1,6 +1,6 @@
 # scan_script
 
-a bash script I wrote for OSCP to automate port scanning and basic enumeration
+a bash script to automate port scanning and basic enumeration
 
 ![](./execution_example.png)
 
